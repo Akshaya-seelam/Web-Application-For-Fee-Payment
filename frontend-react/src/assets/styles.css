@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    margin-top: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+
+.upload-section {
+    margin: 20px 0;
+}
+
+label {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+input[type="file"] {
+    display: block;
+    margin: 10px 0;
+}
+
+.submit-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2em;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-btn:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.submit-btn:hover {
+    background-color: #45a049;
+}
+
+.results {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.results p {
+    font-size: 1.1em;
+    color: #555;
+}
